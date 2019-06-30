@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(m = numeric()) {
+makeCacheMatrix <- function(m = matrix()) {
         
         ## Initializeing the inverse property veriable.
         i <- NULL
@@ -34,7 +34,6 @@ makeCacheMatrix <- function(m = numeric()) {
         ## Returning a list of the methods from makeCacheMatrix funtions.
         list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
-
 
 ## Write a short comment describing this function
 cacheSolve <- function(x, ...) {
